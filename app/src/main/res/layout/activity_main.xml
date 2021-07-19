@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#8BF3F3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radio_groupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RadioButton
+        android:id="@+id/maleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/male_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="00dp"
+        />
+        <RadioButton
+        android:id="@+id/femaleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/female_text"
+        android:textSize="20sp" android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_button_text"
+        android:textSize="25sp"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+    android:id="@+id/resultTextviewId"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "My_RedioButton_demo"
+include ':app'
